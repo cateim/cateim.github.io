@@ -1,0 +1,29 @@
+# cateim.github.io - files that never enter the repository
+
+# ---- Environment ----
+.env
+.env.*
+!.env.example
+
+# ---- Logs ----
+*.log
+
+# ---- Controle de trabalho ----
+# Rascunho de trabalho, nao documentacao: muda a cada sessao e cita o que
+# ainda esta quebrado.
+CHECKLIST.md
+
+# ---- OS and editors ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# ---- Loose attachments in the root ----
+# Anything dropped in the root by mistake. Files for the site, the Search
+# Console verification file included, go in site/.
+/*.pdf
+/*.png
+/*.zip

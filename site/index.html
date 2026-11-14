@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CaTeIM</title>
+    <meta name="description" content="Projects by Gustavo Cateim." />
+    <meta name="color-scheme" content="dark light" />
+    <style>
+      :root {
+        --bg: #101010;
+        --surface: #181818;
+        --line: #2c2c2c;
+        --text: #f5f1e8;
+        --muted: #a8a49b;
+        --link: #82fb9c;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f7f5f0;
+          --surface: #ffffff;
+          --line: #dedad0;
+          --text: #1a1a1a;
+          --muted: #5e5a52;
+          --link: #17803a;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+      }
+      main {
+        width: min(720px, 100% - 32px);
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+      h1 {
+        margin: 0 0 4px;
+      }
+      p {
+        color: var(--muted);
+        margin: 0 0 24px;
+      }
+      a {
+        color: var(--link);
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin: 0 0 12px;
+      }
+      li span {
+        display: block;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CaTeIM</h1>
+      <p>Projects by Gustavo Cateim.</p>
+      <ul>
+        <li>
+          <a href="/drivesync/">DriveSync</a>
+          <span>Google Drive on Omarchy, in sync both ways and in plain sight.</span>
+        </li>
+        <li>
+          <a href="https://github.com/CaTeIM">GitHub</a>
+          <span>Everything else.</span>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
